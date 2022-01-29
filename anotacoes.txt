@@ -1,0 +1,9 @@
+Substituição de ferramentas e bibliotecas Spring
+
+Antigo => Atual
+
+1º - Spring Cloud Netflix Ribbon  => Spring Cloud Load Balancer
+
+2º - Spring Cloud Netflix Zuul => Spring Cloud Gateway
+
+3º - Spring Cloud Hystrix => ***Verificar sucessor 
