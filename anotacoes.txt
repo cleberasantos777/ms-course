@@ -7,3 +7,6 @@ Antigo => Atual
 2º - Spring Cloud Netflix Zuul => Spring Cloud Gateway
 
 3º - Spring Cloud Hystrix => ***Verificar sucessor 
+
+Obs, Eureka ja tem o balanceamento de carga implementado dentro dele, então não será necessário 
+utilizar o Ribbon
