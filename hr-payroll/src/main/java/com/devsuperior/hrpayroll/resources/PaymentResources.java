@@ -15,11 +15,11 @@ import com.devsuperior.hrpayroll.services.PaymentService;
 public class PaymentResources {
 
 	@Autowired
-	private PaymentService ps;
+	private PaymentService service;
 
 	@GetMapping(value = "/{workerId}/days/{days}")
 	public ResponseEntity<Payment> getPayment(@PathVariable Long workerId, @PathVariable Integer days) {
-		Payment p = ps.getPayment(workerId, days);
-		return ResponseEntity.ok(p);
+		Payment payment = service.getPayment(workerId, days);
+		return ResponseEntity.ok(payment);
 	}
 }
